@@ -5,14 +5,6 @@
 #ifndef HYBRID_ALNS_PARTIALSOLUTION_H
 #define HYBRID_ALNS_PARTIALSOLUTION_H
 
-#include "Instance.h"
-
-class PartialSolution {
-    const Instance const* instance;
-
-public:
-
-    PartialSolution(const Instance const* instance) : instance{instance} {}
-};
+struct PartialSolution {};
 
 #endif //HYBRID_ALNS_PARTIALSOLUTION_H

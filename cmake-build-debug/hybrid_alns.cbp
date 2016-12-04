@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hybrid_alns"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alberto/Programming/hybrid-alns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alberto/Programming/hybrid-alns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alberto/Programming/hybrid-alns/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hybrid_alns">
+				<Option output="/home/alberto/Programming/hybrid-alns/build/hybrid_alns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alberto/Programming/hybrid-alns/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alberto/local/include"/>
+					<Add directory="/opt/ibm/ILOG/CPLEX_Studio1263/cplex/include"/>
+					<Add directory="/opt/ibm/ILOG/CPLEX_Studio1263/concert/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 hybrid_alns"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hybrid_alns/fast">
+				<Option output="/home/alberto/Programming/hybrid-alns/build/hybrid_alns" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alberto/Programming/hybrid-alns/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/alberto/local/include"/>
+					<Add directory="/opt/ibm/ILOG/CPLEX_Studio1263/cplex/include"/>
+					<Add directory="/opt/ibm/ILOG/CPLEX_Studio1263/concert/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 hybrid_alns/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/alberto/Programming/hybrid-alns/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/ALNSSolver.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/ALNSSolver.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/AcceptanceCriterion.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/Column.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/ColumnOptimiser.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/DRMethod.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/DestroyMethod.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/LocalSearchOperator.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/Params.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/Params.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/PartialSolution.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/RepairMethod.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/Solution.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/SuppressOutput.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/TabuMove.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/acceptance/WorseAccept.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/acceptance/WorseAccept.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/main.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/Colouring.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/Colouring.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/DestroyMethods.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/DestroyMethods.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/GreedyColour.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/GreedyColour.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/MWSS.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/MWSS.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/RepairMethods.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/RepairMethods.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/VCColumnOptimiser.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/VCColumnOptimiser.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/VCInstance.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/VCInstance.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/VCLocalSearch.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/VCLocalSearch.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/VCParams.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/VCParams.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/VCTabuMove.cpp">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/src/vcp/VCTabuMove.h">
+			<Option target="hybrid_alns"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/cmake/FindExactcolors.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/alberto/Programming/hybrid-alns/cmake/FindCplex.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

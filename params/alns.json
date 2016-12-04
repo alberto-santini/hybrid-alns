@@ -1,0 +1,13 @@
+{
+  "initial_destroy_score": 1.0,
+  "initial_repair_score": 1.0,
+  "new_best_score_update": 2.0,
+  "improves_current_score_update": 1.5,
+  "accepted_score_update": 1.25,
+  "rejected_score_update": 0.5,
+  "history_weight_in_score_update": 0.95,
+  "tabu_tenure": 100,
+  "alns_iterations": 100000,
+  "column_optimisation_frequency": 10000,
+  "column_optimisation_timeout": 30
+}

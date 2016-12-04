@@ -7,24 +7,22 @@
 
 #include <random>
 #include "Params.h"
-#include "Instance.h"
 #include "TabuMove.h"
 #include "Solution.h"
 #include "PartialSolution.h"
+#include "DRMethod.h"
 
-class RepairMethod {
-    const Params& params;
-    const Instance const* instance;
-    float score;
-    const TabuList& tabu_list;
-    mutable std::mt19937& mt;
+class RepairMethod : public DRMethod {
+protected:
+    TabuList* tabu_list;
 
 public:
+    RepairMethod(const Params& alns_params, std::string name, std::mt19937* mt) : DRMethod{alns_params, name, mt} {}
+    RepairMethod(const Params& alns_params, std::string name) : DRMethod{alns_params, name} {}
+    virtual ~RepairMethod() {}
 
-    RepairMethod(const Params& params, const Instance const* instance, const TabuList& tabu_list,  std::mt19937& mt) :
-            params{params}, instance{instance}, score{params.initial_repair_score}, tabu_list{tabu_list}, mt{mt} {}
-
-    virtual Solution* operator()(const PartialSolution const* partial_solution, const TabuList& tabu_list) const = 0;
+    void set_tabu_list(TabuList* tabu_list) { this->tabu_list = tabu_list; }
+    virtual Solution* operator()(const PartialSolution *const partial_solution, uint32_t iter) = 0;
 };
 
 #endif //HYBRID_ALNS_REPAIRMETHOD_H

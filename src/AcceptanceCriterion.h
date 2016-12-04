@@ -7,19 +7,18 @@
 
 #include <random>
 #include "Params.h"
-#include "Instance.h"
 #include "Solution.h"
 
 class AcceptanceCriterion {
-    const Params& params;
-    const Instance const* instance;
+protected:
+    const Params& alns_params;
     mutable std::mt19937* mt;
 
 public:
-    AcceptanceCriterion(const Params& params, const Instance const* instance, std::mt19937* mt) : params{params}, instance{instance}, mt{mt} {}
-    AcceptanceCriterion(const Params& params, const Instance const* instance) : params{params}, instance{instance} {}
+    AcceptanceCriterion(const Params& alns_params, std::mt19937* mt) : alns_params{alns_params}, mt{mt} {}
+    AcceptanceCriterion(const Params& alns_params) : alns_params{alns_params}, mt{nullptr} {}
     void set_mersenne_twister(std::mt19937* mt) { this->mt = mt; }
-    virtual bool operator()(const Solution* incumbent, const Solution* current, const Solution* best, uint32_t iteration_number) const = 0;
+    virtual bool operator()(const Solution *const incumbent, const Solution *const current, const Solution *const best, uint32_t iteration_number) const = 0;
 };
 
 #endif //HYBRID_ALNS_ACCEPTANCECRITERION_H
