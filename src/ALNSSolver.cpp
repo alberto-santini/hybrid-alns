@@ -38,8 +38,8 @@ Solution* ALNSSolver::solve(const Solution *const initial_solution) {
             std::cout << "Iteration: " << current_iteration << std::endl;
         }
 
-        DestroyMethod* destroy_m = roulette_wheel(destroy);
-        RepairMethod* repair_m = roulette_wheel(repair);
+        DestroyMethod* destroy_m = nullptr;
+        RepairMethod* repair_m = nullptr;
         std::unique_ptr<PartialSolution> partial = nullptr;
         std::unique_ptr<Solution> incumbent = nullptr;
 
