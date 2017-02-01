@@ -1,9 +1,0 @@
-/home/alberto/local/clion/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DEXACTCOLORS_ROOT_DIR=/home/alberto/local -DCPLEX_ROOT_DIR=/opt/ibm/ILOG/CPLEX_Studio1263 -G "CodeBlocks - Unix Makefiles" /home/alberto/Programming/hybrid-alns
--- CPLEX Library: /opt/ibm/ILOG/CPLEX_Studio1263/cplex/lib/x86-64_linux/static_pic/libcplex.a
--- ILOCPLEX Library: /opt/ibm/ILOG/CPLEX_Studio1263/cplex/lib/x86-64_linux/static_pic/libilocplex.a
--- CONCERT Library: /opt/ibm/ILOG/CPLEX_Studio1263/concert/lib/x86-64_linux/static_pic/libconcert.a
--- CPLEX Bin Dir: CPLEX_BIN_DIR-NOTFOUND
--- Found CPLEX: /opt/ibm/ILOG/CPLEX_Studio1263/cplex/lib/x86-64_linux/static_pic/libcplex.a  
--- Configuring done
--- Generating done
--- Build files have been written to: /home/alberto/Programming/hybrid-alns/cmake-build-debug
