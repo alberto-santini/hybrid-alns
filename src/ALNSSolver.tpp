@@ -16,6 +16,7 @@ template<class R> R ALNSSolver::roulette_wheel(std::vector<R> vec) const {
 }
 
 template<class R> void ALNSSolver::update_score(R method, float amount) {
+    if(!method) { return; }
     method->set_score(
         method->get_score() * alns_params.history_weight_in_score_update +
         amount * (1.0f - alns_params.history_weight_in_score_update)
